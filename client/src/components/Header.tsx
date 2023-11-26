@@ -11,7 +11,7 @@ export default function Header() {
             <span className="text-blue-300">Estate</span>
           </h1>
         </Link>
-        <form className="bg-slate-200 rounded-xl flex items-center p-1 sm: qp-2">
+        <form className="bg-slate-200 rounded-xl flex items-center p-1 sm:p-2">
           <input className="bg-transparent w-24 sm:w-64 focus:outline-none " type="text" placeholder="Search..." />
           <FaSearch className="text-slate-700" />
         </form>
