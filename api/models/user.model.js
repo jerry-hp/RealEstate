@@ -16,6 +16,10 @@ const userShema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    image: {
+      type: String,
+      default: "https://img.freepik.com/free-psd/3d-icon-social-media-app_23-2150049569.jpg?size=626&ext=jpg&ga=GA1.1.1818359700.1701086645&semt=ais",
+    },
   },
   { timestamps: true }
 );

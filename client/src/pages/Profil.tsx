@@ -1,3 +1,3 @@
 export default function Profil() {
-  return <div></div>;
+  return <div>ini profil</div>;
 }
